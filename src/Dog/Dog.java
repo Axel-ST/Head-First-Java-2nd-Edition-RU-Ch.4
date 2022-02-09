@@ -7,10 +7,18 @@
 package Dog;
 
 public class Dog {
-    int size;
-    String name;
+    private int size;
+    private String name;
     
-    void bark(int numOfBarks) {
+    public int getSize() {
+        return size;
+    }
+    
+    public void setSize(int s) {
+        size = s;
+    }
+    
+    public void bark(int numOfBarks) {
         while(numOfBarks > 0){
             if(size > 60) {
                 System.out.print("Wooof!");
