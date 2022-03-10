@@ -4,7 +4,7 @@
  * Head First Java, 2nd Edition (RU) p. 118
  */
 
-package beTheCompiler.A;
+package beTheCompiler;
 
 public class XCopy {
     public static void main(String[] args) {
